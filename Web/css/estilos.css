@@ -1,0 +1,31 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*--- Estilos Generales ---*/
+body{
+	background: #2d2d2d;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+a{text-decoration: none; color:#fff;}
+a:hover{text-decoration: underline;}
+
+#wrap{
+	width: 960px;
+	margin: auto;
+	clear: both;
+}
+
+
+/*--- HEADER ---*/
+
+header{
+	width: 100%;
+	float: left;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,e4e0e0+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #e4e0e0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#e4e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#e4e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 ); /* IE6-9 */
+
+}
